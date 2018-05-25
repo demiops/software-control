@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package rpc;
+
+service #{class_name} {
+
+  // rpc Function(Request) returns (Response) {}
+
+}
+
+message #{class_name} {
+
+  // type name = 1;
+  // type name = 2;
+  // type name = 3;
+  // type name = 4;
+
+}
+
+
