@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Endpoint:</strong>
+  <%= @cloud.endpoint %>
+</p>
+
+<p>
+  <strong>Properties:</strong>
+  <%= @cloud.properties %>
+</p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @cloud.uuid %>
+</p>
+
+<%= link_to 'Edit', edit_cloud_path(@cloud) %> |
+<%= link_to 'Back', clouds_path %>

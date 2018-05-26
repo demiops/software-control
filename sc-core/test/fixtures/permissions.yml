@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  perm: MyString
+  resource: MyString
+
+two:
+  uuid: MyString
+  perm: MyString
+  resource: MyString

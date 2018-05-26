@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @cloudcredential.uuid %>
+</p>
+
+<p>
+  <strong>Properties:</strong>
+  <%= @cloudcredential.properties %>
+</p>
+
+<%= link_to 'Edit', edit_cloudcredential_path(@cloudcredential) %> |
+<%= link_to 'Back', cloudcredentials_path %>

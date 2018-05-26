@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Authmethods</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Uuid</th>
+      <th>Endpoint</th>
+      <th>Properties</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @authmethods.each do |authmethod| %>
+      <tr>
+        <td><%= authmethod.uuid %></td>
+        <td><%= authmethod.endpoint %></td>
+        <td><%= authmethod.properties %></td>
+        <td><%= link_to 'Show', authmethod %></td>
+        <td><%= link_to 'Edit', edit_authmethod_path(authmethod) %></td>
+        <td><%= link_to 'Destroy', authmethod, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Authmethod', new_authmethod_path %>

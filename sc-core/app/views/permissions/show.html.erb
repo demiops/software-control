@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @permission.uuid %>
+</p>
+
+<p>
+  <strong>Perm:</strong>
+  <%= @permission.perm %>
+</p>
+
+<p>
+  <strong>Resource:</strong>
+  <%= @permission.resource %>
+</p>
+
+<%= link_to 'Edit', edit_permission_path(@permission) %> |
+<%= link_to 'Back', permissions_path %>

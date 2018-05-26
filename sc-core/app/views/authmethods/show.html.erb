@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @authmethod.uuid %>
+</p>
+
+<p>
+  <strong>Endpoint:</strong>
+  <%= @authmethod.endpoint %>
+</p>
+
+<p>
+  <strong>Properties:</strong>
+  <%= @authmethod.properties %>
+</p>
+
+<%= link_to 'Edit', edit_authmethod_path(@authmethod) %> |
+<%= link_to 'Back', authmethods_path %>

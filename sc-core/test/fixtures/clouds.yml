@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  endpoint: MyString
+  properties: MyText
+  uuid: MyString
+
+two:
+  endpoint: MyString
+  properties: MyText
+  uuid: MyString

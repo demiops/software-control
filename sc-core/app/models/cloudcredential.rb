@@ -1,0 +1,2 @@
+class Cloudcredential < ApplicationRecord
+end

@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Key:</strong>
+  <%= @apikey.key %>
+</p>
+
+<p>
+  <strong>Secret:</strong>
+  <%= @apikey.secret %>
+</p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @apikey.uuid %>
+</p>
+
+<%= link_to 'Edit', edit_apikey_path(@apikey) %> |
+<%= link_to 'Back', apikeys_path %>

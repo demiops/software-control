@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @authcredential.uuid %>
+</p>
+
+<p>
+  <strong>Properties:</strong>
+  <%= @authcredential.properties %>
+</p>
+
+<%= link_to 'Edit', edit_authcredential_path(@authcredential) %> |
+<%= link_to 'Back', authcredentials_path %>

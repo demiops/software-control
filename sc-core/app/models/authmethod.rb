@@ -1,0 +1,2 @@
+class Authmethod < ApplicationRecord
+end

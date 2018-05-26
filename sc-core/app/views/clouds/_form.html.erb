@@ -1,0 +1,32 @@
+<%= form_with(model: cloud, local: true) do |form| %>
+  <% if cloud.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(cloud.errors.count, "error") %> prohibited this cloud from being saved:</h2>
+
+      <ul>
+      <% cloud.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :endpoint %>
+    <%= form.text_field :endpoint, id: :cloud_endpoint %>
+  </div>
+
+  <div class="field">
+    <%= form.label :properties %>
+    <%= form.text_area :properties, id: :cloud_properties %>
+  </div>
+
+  <div class="field">
+    <%= form.label :uuid %>
+    <%= form.text_field :uuid, id: :cloud_uuid %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  uuid: MyString
+  ccnumber: MyString
+  cvn: 1
+  address: MyString
+  name: MyString
+  exp: MyString
+
+two:
+  uuid: MyString
+  ccnumber: MyString
+  cvn: 1
+  address: MyString
+  name: MyString
+  exp: MyString

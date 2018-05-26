@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @subscription.uuid %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @subscription.type %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @subscription.description %>
+</p>
+
+<%= link_to 'Edit', edit_subscription_path(@subscription) %> |
+<%= link_to 'Back', subscriptions_path %>
